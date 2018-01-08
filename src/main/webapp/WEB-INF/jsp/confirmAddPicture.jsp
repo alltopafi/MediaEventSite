@@ -4,10 +4,16 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Home</title>
+<title>Picture added!</title>
 </head>
 <body>
-<h2>Event Media Site</h2>
-<a href="addPicture">Add Picture</a>
+
+<h1>Result</h1>
+<hr>
+<h2>The author was a ${picture.author}</h2>
+<h2>The description was ${picture.description}</h2>
+<h2>The event was: ${picture.event}</h2>
+<a href="addPicture">Submit another message</a>
+
 </body>
 </html>

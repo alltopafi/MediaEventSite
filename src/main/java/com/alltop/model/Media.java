@@ -7,6 +7,7 @@ public abstract class Media {
 	private int id;
 	private String author;
 	private String event;
+	private String description;
 	private String timeStamp;
 	private MediaType type;
 	
@@ -27,6 +28,12 @@ public abstract class Media {
 	}
 	public void setEvent(String event) {
 		this.event = event;
+	}
+	public String getDescription() {
+		return description;
+	}
+	public void setDescription(String description) {
+		this.description = description;
 	}
 	public String getTimeStamp() {
 		return timeStamp;
